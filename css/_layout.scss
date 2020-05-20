@@ -2,33 +2,45 @@
 
 .nav{
     width: 296px;
+    min-width: 296px;
     height: 100%;
-    background-color: $second-color;
+    background-color: $secondary;
+    padding-top: 32px;
     padding-left: 32px;
-    position: fixed;
+    padding-bottom: 32px;
     .logo{
         height: 40px;
-        margin-bottom: $margin-base+3px;
+        margin-bottom: 32px;
+    }
+    .navul{
+        margin-bottom: $spacer*18;
     }
     .navli{
         font-family: $firstfont;
-        font-weight: $bold-fw;
-        font-size: $base-fz;
-        line-height: $base-lh;
-        margin-bottom: $margin-base;
+        font-weight: $font-weight-bold;
+        font-size: $font-size-base;
+        line-height: $line-height-base;
+        margin-bottom: $spacer*1.8125;
         .navimg{
-            margin-right: 18px;
+            margin-right: $spacer*1.125;
         }
 
     }
     .navlink{
         color: #000000;
     }
-    .userdata{
-        bottom: 32px;
+    .link-hover-color{
+        color: $link-hover-color;
     }
     .userhead{
         width: 40px;
         height: 40px;
+    }
+    .username{
+        font-size: $font-size-base;
+        color: #121212;
+    }
+    .useremail{
+        font-size: 0.875rem;
     }
 }

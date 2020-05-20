@@ -1,0 +1,164 @@
+//main block
+.header{
+    margin-top: $spacer*2;
+    margin-bottom: $spacer*2;
+}
+.mainwrap{
+    padding-right: $spacer*2;
+    padding-left: $spacer*2;
+    padding-bottom: $spacer*2;
+}
+.mainheader-title{
+    font-size: $font-size-base*1.5;
+    line-height: $line-height*1.01;
+    margin-right: $spacer*2.875;
+    color: $primary;
+}
+.mainheader-text{
+    color: $primary;
+}
+.courses{
+    font-family: $firstfont;
+    font-size: $font-size-base;
+    font-weight: $font-weight-bold;
+    color: $primary;
+    line-height: $line-height*0.989;
+}
+.dropdown{
+    .btn-link{
+        color: #000;
+    }
+    .button-dropdown{
+        font-size: 1rem;
+        line-height: $line-height;
+        font-weight: $font-weight-bold;
+        color: $primary;
+    }
+}
+.comments{
+    color: #707070;
+    font-size: 0.75rem;
+    line-height: $line-height*1.04;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.small{
+    padding-right: 0;
+}
+.itemtitle{
+    color: $primary;
+    font-size: $font-size-base*0.75;
+    font-family: $firstfont;
+    font-weight: $font-weight-normal;
+}
+.itembold{
+    color: $primary;
+    font-size: $font-size-base;
+    font-family: $firstfont;
+    font-weight: $font-weight-bold;
+}
+.itemname{
+    color: #0000009A;
+    font-size: $font-size-base*0.75;
+    font-family: $firstfont;
+    font-weight: $font-weight-normal;
+}
+.bgc{
+    background-color: $secondary;
+}
+.card-body{
+    padding-right: 2rem;
+}
+.card-header{
+    padding: 0.75rem 1rem;
+}
+.photo{
+    width: 40px;
+    height: 40px;
+    background-image: url(../week5/emilywang.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.photosec{
+    width: 40px;
+    height: 40px;
+    background-image: url(../week5/andychen.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.itemcontent{
+    color: $primary;
+    font-size: $font-size-base*0.875;
+    font-family: $firstfont;
+    line-height: $line-height*1.16;
+    font-weight: $font-weight-normal;
+    .link{
+        font-family: $secondfont;
+        color: #2A8356;
+        background-color: $secondary;
+    }
+
+}
+.download{
+    width: 176px;
+    height: 44px;
+    border: 1px solid #CDDDCD;
+}
+.media-top{
+    border-bottom: 1px solid #CDDDCD;
+}
+.btn-mark{
+    width: 157px;
+    color: #2A8356;
+    border: 2px solid #2A8356;
+    font-size: $font-size-base;
+    font-family: $firstfont;
+    line-height: $line-height*0.989;
+    font-weight: $font-weight-bold;
+}
+.btn-reply{
+    width: 105px;
+    font-size: $font-size-base;
+    font-family: $firstfont;
+    line-height: $line-height*0.989;
+    font-weight: $font-weight-bold;
+    background-color: #2A8356;
+    border: 2px solid #2A8356;
+}
+.table{
+    margin-bottom: 4rem;
+    thead{
+        .table-head-admin{
+            border-top: none;
+            font-size: $font-size-base;
+            font-family: $firstfont;
+            line-height: $line-height*0.989;
+            font-weight: $font-weight-bold;
+        }
+        .table-admin{
+            font-size: $font-size-base;
+            font-family: $firstfont;
+            line-height: $line-height*0.989;
+            font-weight: $font-weight-normal;
+        }   
+    }
+    .table-end{
+        border-bottom: 1px solid #CDDDCD;
+    }
+}
+.btn-botnum{
+    border: 1px solid #2A8356;
+    color: $primary;
+    font-size: $font-size-base;
+    font-family: $firstfont;
+    font-weight: $font-weight-normal;
+}
+.btn-botnum-bg{
+    background-color: #2A8356;
+    border: 1px solid #2A8356;
+    color: #fff;
+    font-size: $font-size-base;
+    font-family: $firstfont;
+    font-weight: $font-weight-normal;
+}
+
